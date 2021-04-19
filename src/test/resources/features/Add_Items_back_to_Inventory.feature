@@ -1,3 +1,6 @@
+#Benefit of qTest's BDD integration is that we have a direct 
+#intgeration to Git so that everything is version controlled. 
+
 Feature:Add Items back to Inventory
   As a store owner,
   I want to add items back to inventory when they are returned or exchanged,
