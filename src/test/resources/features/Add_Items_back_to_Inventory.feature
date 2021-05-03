@@ -25,7 +25,7 @@ Scenario Outline: Blenders
     Given I put <thing> in a blender,
     When I switch the blender on
     Then it should transform into <other thing>
-    And here is where I'll make a change during the DevOps demo
+    Then we throw it all away
 
 Examples: Amphibians
    | thing         | other thing |
