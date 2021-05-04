@@ -25,7 +25,7 @@ Scenario Outline: Blenders
     Given I put <thing> in a blender,
     When I switch the blender on
     Then it should transform into <other thing>
-    Then we throw it all away
+    Then we attempt to post our results on Will It Blend?
 
 Examples: Amphibians
    | thing         | other thing |
