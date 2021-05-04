@@ -25,7 +25,7 @@ Scenario Outline: Blenders
     Given I put <thing> in a blender,
     When I switch the blender on
     Then it should transform into <other thing>
-    Then we attempt to post our results on Will It Blend?
+    Then we post our results on Will It Blend on YT
 
 Examples: Amphibians
    | thing         | other thing |
