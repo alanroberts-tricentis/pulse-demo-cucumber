@@ -25,7 +25,7 @@ Scenario Outline: Blenders
     Given I put <thing> in a blender,
     When I switch the blender on
     Then it should transform into <other thing>
-    Then we will upload the video to Will it Blend?
+    Then Alan will conclude the demo
 
 Examples: Amphibians
    | thing         | other thing |
