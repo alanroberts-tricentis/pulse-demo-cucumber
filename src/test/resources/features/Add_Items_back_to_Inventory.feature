@@ -25,7 +25,7 @@ Scenario Outline: Blenders
     Given I put <thing> in a blender,
     When I switch the blender on
     Then it should transform into <other thing>
-    Then Alan will conclude the demo
+    Then Alan will conclude the demo shortly
 
 Examples: Amphibians
    | thing         | other thing |
